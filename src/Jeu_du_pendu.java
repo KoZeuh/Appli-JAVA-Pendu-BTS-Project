@@ -118,11 +118,11 @@ public class Jeu_du_pendu {
 
         if (MotTrouve(reponses)){
             System.out.println("Bravo, vous avez réussi en "+(nbEssaisMax-nbEssais)+" coup(s) !");
-            System.out.println("Le mot a trouvé était : ["+motRandom+"]");
         }else {
             System.out.println("Vous avez échoué !");
-            System.out.println("Le mot a trouvé était : ["+motRandom+"]");
         }
+
+        System.out.println("Le mot a trouvé était : ["+motRandom+"]");
     }
 
 }
